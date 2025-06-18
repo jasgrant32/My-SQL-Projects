@@ -1,0 +1,46 @@
+[
+{"type":"header","version":"5.1.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"onlinebookstore"},
+{"type":"table","name":"books","database":"onlinebookstore","data":
+[
+{"Book_ID":"500","Title":"Configurable modular throughput","Author":"Joseph Crane","Genre":"Biography","Published_Year":"1949","Price":"21.34","Stock":"100"},
+{"Book_ID":"501","Title":"Persevering reciprocal knowledge user","Author":"Mario Moore","Genre":"Fantasy","Published_Year":"1971","Price":"35.80","Stock":"19"},
+{"Book_ID":"502","Title":"Streamlined coherent initiative","Author":"Derrick Howard","Genre":"Non-Fiction","Published_Year":"1913","Price":"15.75","Stock":"27"},
+{"Book_ID":"503","Title":"Customizable 24hour product","Author":"Christopher Andrews","Genre":"Fiction","Published_Year":"2020","Price":"43.52","Stock":"8"},
+{"Book_ID":"504","Title":"Adaptive 5thgeneration encoding","Author":"Juan Miller","Genre":"Fantasy","Published_Year":"1956","Price":"10.95","Stock":"16"},
+{"Book_ID":"505","Title":"Advanced encompassing implementation","Author":"Bryan Morgan","Genre":"Biography","Published_Year":"1985","Price":"6.56","Stock":"2"},
+{"Book_ID":"506","Title":"Open-architected exuding structure","Author":"Jacqueline Young","Genre":"Romance","Published_Year":"1927","Price":"43.63","Stock":"95"},
+{"Book_ID":"507","Title":"Persistent local encoding","Author":"Troy Cox","Genre":"Science Fiction","Published_Year":"2019","Price":"48.99","Stock":"84"},
+{"Book_ID":"508","Title":"Optimized interactive challenge","Author":"Colin Buckley","Genre":"Fantasy","Published_Year":"1987","Price":"14.33","Stock":"70"},
+{"Book_ID":"509","Title":"Ergonomic national hub","Author":"Samantha Ruiz","Genre":"Mystery","Published_Year":"2015","Price":"24.63","Stock":"25"}
+]
+}
+,{"type":"table","name":"customers","database":"onlinebookstore","data":
+[
+{"Customer_ID":"500","Name":"Deborah Griffith","Email":"balljoseph@wright-keith.net","Phone":"1234567891","City":"South Craigfort","Country":"Denmark"},
+{"Customer_ID":"501","Name":"Crystal Clements","Email":"kimberlybennett@curtis.com","Phone":"1234567892","City":"East Derekberg","Country":"Nicaragua"},
+{"Customer_ID":"502","Name":"Susan Fuller","Email":"beanmichael@burnett-stewart.net","Phone":"1234567893","City":"Austinbury","Country":"Equatorial Guinea"},
+{"Customer_ID":"503","Name":"Jamie Ramirez","Email":"amandahood@warren.com","Phone":"1234567894","City":"Dianamouth","Country":"Slovenia"},
+{"Customer_ID":"504","Name":"Marcus Murphy","Email":"connerjohn@yahoo.com","Phone":"1234567895","City":"Smithbury","Country":"Guinea-Bissau"},
+{"Customer_ID":"505","Name":"Stephen Vasquez","Email":"ricemiguel@yahoo.com","Phone":"1234567896","City":"Hamiltonstad","Country":"Rwanda"},
+{"Customer_ID":"506","Name":"Susan Hicks","Email":"jeffrey91@yahoo.com","Phone":"1234567897","City":"East Rebecca","Country":"Montenegro"},
+{"Customer_ID":"507","Name":"Matthew Johnson","Email":"austinkenneth@manning.net","Phone":"1234567898","City":"Kirstenborough","Country":"Israel"},
+{"Customer_ID":"508","Name":"Matthew Williams","Email":"jeffrey41@diaz.com","Phone":"1234567899","City":"Rebeccafurt","Country":"Somalia"},
+{"Customer_ID":"509","Name":"Ronald Osborn","Email":"staciekelley@heath.com","Phone":"1234567900","City":"Lake Benjamin","Country":"Cameroon"}
+]
+}
+,{"type":"table","name":"orders","database":"onlinebookstore","data":
+[
+{"Order_ID":"500","Customer_ID":"84","Book_ID":"169","Order_Date":"0000-00-00","Quantity":"8","Total_Amount":"188.56"},
+{"Order_ID":"501","Customer_ID":"137","Book_ID":"301","Order_Date":"0000-00-00","Quantity":"10","Total_Amount":"216.60"},
+{"Order_ID":"502","Customer_ID":"216","Book_ID":"261","Order_Date":"0000-00-00","Quantity":"6","Total_Amount":"85.50"},
+{"Order_ID":"503","Customer_ID":"433","Book_ID":"343","Order_Date":"0000-00-00","Quantity":"7","Total_Amount":"301.21"},
+{"Order_ID":"504","Customer_ID":"14","Book_ID":"431","Order_Date":"0000-00-00","Quantity":"7","Total_Amount":"136.36"},
+{"Order_ID":"505","Customer_ID":"439","Book_ID":"119","Order_Date":"0000-00-00","Quantity":"5","Total_Amount":"249.40"},
+{"Order_ID":"506","Customer_ID":"195","Book_ID":"467","Order_Date":"0000-00-00","Quantity":"6","Total_Amount":"82.92"},
+{"Order_ID":"507","Customer_ID":"32","Book_ID":"159","Order_Date":"0000-00-00","Quantity":"4","Total_Amount":"144.84"},
+{"Order_ID":"508","Customer_ID":"109","Book_ID":"407","Order_Date":"0000-00-00","Quantity":"9","Total_Amount":"379.71"},
+{"Order_ID":"509","Customer_ID":"94","Book_ID":"122","Order_Date":"0000-00-00","Quantity":"4","Total_Amount":"123.00"}
+]
+}
+]
