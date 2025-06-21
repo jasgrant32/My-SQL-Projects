@@ -11,8 +11,6 @@ This is my first solo project showcasing my knowledge in learning SQL query synt
 select * from Books
 where Published_Year > 1950;
 
-# My-SQL-Projects
-
 # [Project 2: HPV Vaccination and Cervical Cancer Study](https://www.kaggle.com/datasets/shuvokumarbasak2030/hpv-vaccination-and-cervical-cancer)
 
 *Dataset was taken from Kaggle.com (https://www.kaggle.com/datasets/shuvokumarbasak2030/hpv-vaccination-and-cervical-cancer)
