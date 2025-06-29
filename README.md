@@ -7,9 +7,19 @@ This is my first solo project showcasing my knowledge in learning SQL query synt
 *Dataset was taken from Kaggle.com (https://www.kaggle.com/datasets/komal1111/online-bookstore-analysis)
 *Dataset Covers sales trends, customer behavior, and book genre preferences
 *Data was cleaned & aggregated before quering 
-*Example query: Find Books published after the year 1950
+*Example query #1: 
+Find Books published after the year 1950
 select * from Books
 where Published_Year > 1950;
+*Example query #2:
+Find the details of the most expensive book
+select * from Books
+Order by Price Desc
+limit 1;
+*Example query #3:
+Retrieve all orders where the total amount exceeds $20
+select * from Orders
+where Total_Amount > 20;
 
 # [Project 2: HPV Vaccination and Cervical Cancer Study](https://www.kaggle.com/datasets/shuvokumarbasak2030/hpv-vaccination-and-cervical-cancer)
 
